@@ -1,5 +1,5 @@
 
-# reads data from the vpc remote state file. to use it dbcluster 
+# reads data from the vpc remote state file. to use it redis cluster
 data "terraform_remote_state" "vpc" {
     backend = "s3"
     config = {
